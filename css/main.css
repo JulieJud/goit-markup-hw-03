@@ -1,0 +1,129 @@
+/*hero section */
+.hero {
+  background-color: var(--hero-color);
+}
+
+.hero-title {
+  color: var(--primary-bg-color);
+  text-transform: uppercase;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero-link {
+  color: var(--primary-bg-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  text-decoration: none;
+}
+
+/*main section */
+.section-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.strong-side .title {
+  text-transform: uppercase;
+}
+
+/*button */
+
+.button {
+  color: var(--title-color);
+  background-color: var(--bg-secondary-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+
+.herobut {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.team {
+  background-color: var(--bg-secondary-color);
+}
+
+.members .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.members .position {
+  font-size: 16px;
+  line-height: 1.18;
+
+  text-align: center;
+}
+
+/*portfolio*/
+.item-title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.portofolio-link {
+  text-decoration: none;
+}
+
+.item {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--primary-text-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* цвет основной текста  #212121*/
+/* цвет вторичный текста #757575* 
+/* белый*color: #FFFFFF */
+/*rgba(236, 236, 236, 1)*/
+/*rgba(245, 244, 250, 1)*/
+/*rgba(47, 48, 58, 1)*/
+/* цвет акцент color: #2196F3*/ ;

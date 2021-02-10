@@ -1,0 +1,110 @@
+:root {
+  --primary-text-color: #757575;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --hero-color: #2f303a;
+  --bg-secondary-color: #f5f4fa;
+  --adressf-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  color: var(--primary-text-color);
+
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.adress .link {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: raleway, cursive;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.partlogo {
+  color: var(--accent-color);
+}
+
+.partslogo {
+  color: var(--title-color);
+}
+
+.fpartslogo {
+  color: var(--primary-bg-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/*site-nav*/
+
+.site-nav .link {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.adress .link:hover,
+.adress .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.site-nav .adress .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/*foother section */
+
+footer {
+  background-color: var(--hero-color);
+}
+
+.adressf .adress-footer {
+  color: var(--primary-bg-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.adressf .link {
+  color: var(--adressf-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
