@@ -120,6 +120,10 @@
   overflow: hidden;
 }
 
+.container {
+  outline: red;
+}
+
 /* цвет основной текста  #212121*/
 /* цвет вторичный текста #757575* 
 /* белый*color: #FFFFFF */
