@@ -6,6 +6,7 @@
 }
 
 .hero-title {
+  display: inline-block;
   color: var(--primary-bg-color);
   text-transform: uppercase;
 
@@ -16,14 +17,7 @@
   letter-spacing: 0.06em;
   margin-top: 0;
   margin-bottom: 30px;
-}
-
-.hero-link {
-  color: var(--primary-bg-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.8;
-  text-decoration: none;
+  padding-top: 200px;
 }
 
 /*main section */
@@ -82,8 +76,15 @@
   line-height: 1.8;
   text-align: center;
   letter-spacing: 0.06em;
-  display: inline-block;
-  padding: 10px, 32px;
+  display: block;
+  padding-top: 10px;
+  padding-left: auto;
+  padding-bottom: 10px;
+  padding-right: auto;
+  width: 200px;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team {
