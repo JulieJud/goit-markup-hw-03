@@ -36,6 +36,13 @@ body {
   letter-spacing: 0.03em;
 }
 
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
 .page-header .container {
   min-height: 80px;
   display: flex;
@@ -80,12 +87,6 @@ body {
 
 .fpartslogo {
   color: var(--primary-bg-color);
-}
-
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .site-list {
