@@ -75,7 +75,16 @@ img {
   align-items: center;
 }
 
+.site-nav .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
+}
+
 .adress .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: 500;
@@ -161,6 +170,8 @@ img {
 
 footer {
   background-color: var(--hero-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .adressf .adress-footer {
@@ -183,7 +194,6 @@ footer {
 }
 
 .adressf {
-  padding-bottom: 60px;
   margin-top: 20px;
 }
 
@@ -193,15 +203,14 @@ footer {
 }
 
 .link.down {
-  display: inline-block;
+  display: block;
   margin-bottom: 9px;
+}
+
+.logo.down {
+  margin-right: 0;
 }
 
 .link.down:last-child {
   margin-bottom: 0px;
-}
-
-.logo.down {
-  display: inline-block;
-  padding-top: 60px;
 }
